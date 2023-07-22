@@ -1,0 +1,84 @@
+*{
+    margin:0;
+}
+
+footer{
+    background-color: rgb(135, 136, 136);
+}
+
+nav{
+    height: 18%;
+    width: auto;
+    margin: 0%;
+    padding: 2%;
+    background-color: rgb(25, 26, 27);
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+}
+
+main{
+    display: flexbox;
+    margin: 10%;
+}
+
+th, h4, h2, h3, p, nav{ 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    height: 30px;
+    width: 60px;
+}
+
+footer{
+    padding: 1%;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+  
+table{
+    width: 100%;
+}
+    
+thead{
+    padding: 2px;
+    background-color: bisque;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+#gameColumn{
+    width: 25%;
+}
+
+#playersColumn{
+    width: 8%;
+}
+
+#pointsColumn{
+    width: 8%;
+}
+
+#commentsColumn{
+    width: 25%;
+}
+
+td{
+    padding: 2px;
+    border: 1.5px solid black;
+}
+
+#clock {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        margin: 4%;
+}

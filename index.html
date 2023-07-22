@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Bitacora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div><nav><a class="home" href="#">HOME</a></nav></div>
+    </header>
+    <main>
+        <div class="mainBody">
+            <p>Bitacora BoardGames</p>
+        </div>
+        <p id="clock"></p>
+        <form id="form" name="boardscore">
+            <input id="game" type="text" name="game" placeholder="Insert name of the game">
+            <input id="date" type="date" name="date" placeholder="Insert the date">
+            <input id="numberPlayers" type="number" name="numberPlayers" placeholder="Insert number of players">
+            <input id="winner" type="text" name="winner" placeholder="Insert name of the winner">
+            <input id="points" type="number" name="points" placeholder="Insert number of points">
+            <input id="comments" type="text" name="comments" placeholder="Insert comments">
+
+            <input id="button" type="submit" value="Submit!">
+        </form>
+        <section>
+            <table id="table">
+                <thead>
+                    <tr class="tableRow">
+                        <th id="gameColumn">Game</th>
+                        <th id="dateColumn">Date</th>
+                        <th id="playersColumn"># of players</th>
+                        <th id="winnerColumn">Winner</th>
+                        <th id="pointsColumn">Points</th>
+                        <th id="commentsColumn">Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>Podras encontrar mas proyectos en mi GitHub</h3>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
