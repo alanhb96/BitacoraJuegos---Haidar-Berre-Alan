@@ -52,7 +52,7 @@ function tableFromLocalStorageArray(localStorageKey) {
     }
 
     tableBody.appendChild(newRow)
-  });
+  })
 }
 
 tableFromLocalStorageArray('table')
@@ -87,6 +87,8 @@ myForm.onsubmit= (evt) => {
       
     localStorage.setItem('table',JSON.stringify(tableArray))
     sectionTable.appendChild(tableRow)
+
+    myForm.reset()
 
     Toastify({
       text:"Entry added!",
